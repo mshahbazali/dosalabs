@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './css/header.css'
+import './css/hero.css'
+import './css/sectionOne.css'
+import './css/menu.css'
+import './css/about.css'
+import './css/popup.css'
+import './css/product.css'
+import "react-multi-carousel/lib/styles.css";
 
+import Home from './pages/Home'
+import Product from './pages/Product'
+import ReactDOM from "react-dom/client";
+import {
+  BrowserRouter,
+  RouterProvider,
+  Route,
+  Routes,
+} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/product/:slug' element={<Product />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --primary-color  : #5CAC0E;
+    --secondary-color: #FF9800;
+    --light-color    : #FFB573;
+}
+
+* {
+    padding      : 0;
+    margin       : 0;
+    padding-right: 20px;
+}
+
+/* Responsive  */
+
+
+
+/* Small Mobile */
+
+@media only screen and (min-width : 200px) {}
+
+/* Smart Mobile  */
+
+@media only screen and (min-width : 320px) {
+
+    .heroContainer {
+        padding-left         : 10px;
+        padding-right        : 10px;
+        margin-top           : 30px;
+        text-align           : center;
+        background-image     : url("../assets/sectionOneBg.png");
+        background-repeat    : no-repeat;
+        background-size      : 35%;
+        background-position  : left;
+        background-position-y: 16.6rem;
+    }
+
+    .heroContainerLeft {
+        width          : 100%;
+        margin-top     : 380px;
+        display        : block;
+        justify-content: center;
+        align-items    : center;
+
+    }
+
+    .heroContainerRight {
+        align-items: center;
+        display    : block;
+
+    }
+
+    .firstHeading {
+        font-family   : Poppins;
+        font-size     : 24px;
+        font-weight   : 600;
+        letter-spacing: 0em;
+        text-align    : center;
+        color         : var(--secondary-color);
+    }
+
+    .secondHeading {
+        font-family   : Poppins;
+        font-size     : 20px;
+        font-weight   : 600;
+        line-height   : 60px;
+        letter-spacing: 0em;
+        text-align    : center;
+        color         : var(--light-color);
+        margin-top    : -15px;
+    }
+
+    .heroContent {
+        margin-top   : -10px;
+        margin-bottom: 20px;
+        text-align   : center;
+        font-size    : 15px;
+    }
+
+    .heroCta {
+        height             : 50px;
+        width              : 136px;
+        border-radius      : 50px;
+        background-color   : var(--primary-color);
+        border             : none;
+        color              : #fff;
+        cursor             : pointer;
+        margin-top         : -6px;
+        font-size          : 16px;
+        /* margin-left     : 30%; */
+    }
+
+    .heroImage {
+        position   : absolute;
+        width      : 320px;
+        height     : 320px;
+        top        : 120px;
+        left       : 40px;
+        align-items: center;
+    }
+}
+
+/* Tablet  */
+
+@media only screen and (min-width : 768px) {
+
+    .heroContainer {
+        display            : flex;
+        justify-content    : space-between;
+        padding-left       : 10px;
+        padding-right      : 10px;
+        margin-top         : 30px;
+        text-align         : left;
+        background-image   : url("../assets/sectionOneBg.png");
+        background-repeat  : no-repeat;
+        background-size    : 45%;
+        background-position: left;
+    }
+
+    .heroContainerLeft {
+        width      : 30%;
+        margin-top : 10px;
+        margin-left: 10px;
+    }
+
+    .heroContainerRight {
+        align-items : center;
+        margin-right: 20px;
+    }
+
+    .firstHeading {
+        font-family   : Poppins;
+        font-size     : 50px;
+        font-weight   : 600;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : var(--secondary-color);
+    }
+
+    .secondHeading {
+        font-family   : Poppins;
+        font-size     : 37px;
+        font-weight   : 600;
+        line-height   : 60px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : var(--light-color);
+        margin-top    : 0px;
+    }
+
+    .heroContent {
+        width        : 100%;
+        margin-top   : 10px;
+        text-align   : left;
+        margin-bottom: 30px;
+    }
+
+    .heroCta {
+        height          : 50px;
+        width           : 136px;
+        left            : 95px;
+        top             : 703px;
+        border-radius   : 50px;
+        background-color: var(--primary-color);
+        border          : none;
+        color           : #fff;
+        cursor          : pointer;
+        margin-top      : -2px;
+        font-size       : 16px;
+        margin-left     : 0%;
+
+    }
+
+    .heroImage {
+        position: relative;
+        z-index : 9;
+        top     : 0px;
+        left    : 0px;
+        opacity : 1;
+        width   : 360px;
+        height  : 360px;
+    }
+}
+
+/* Laptop  */
+
+@media only screen and (min-width : 1200px) {
+
+    .heroContainer {
+        display            : flex;
+        justify-content    : space-between;
+        padding-left       : 10px;
+        padding-right      : 10px;
+        margin-top         : 30px;
+        text-align         : left;
+        background-image   : url("../assets/sectionOneBg.png");
+        background-repeat  : no-repeat;
+        background-size    : 17%;
+        background-position: left;
+    }
+
+    .heroContainerLeft {
+        width      : 25%;
+        margin-top : 40px;
+        margin-left: 13%;
+    }
+
+    .heroContainerRight {
+        align-items : center;
+        margin-right: 20px;
+        width       : 40%;
+
+    }
+
+    .firstHeading {
+        font-family   : Poppins;
+        font-size     : 64px;
+        font-weight   : 600;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : var(--secondary-color);
+    }
+
+    .secondHeading {
+        font-family   : Poppins;
+        font-size     : 50px;
+        font-weight   : 600;
+        line-height   : 60px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : var(--light-color);
+        margin-top    : 0px;
+        overflow-y    : hidden;
+    }
+
+    .heroContent {
+        width        : 100%;
+        margin-top   : 30px;
+        text-align   : left;
+        margin-bottom: 10px;
+    }
+
+    .heroCta {
+        height          : 50px;
+        width           : 136px;
+        left            : 95px;
+        top             : 703px;
+        border-radius   : 50px;
+        background-color: var(--primary-color);
+        border          : none;
+        color           : #fff;
+        cursor          : pointer;
+        margin-top      : 20px;
+        font-size       : 16px;
+        margin-left     : 0%;
+    }
+
+    .heroImage {
+        position: relative;
+        z-index : -1;
+        top     : 0px;
+        opacity : 1;
+        width   : 530px;
+        height  : 530px;
+        left    : 0px;
+
+    }
+}
+
+/* Desktop  */
+
+@media only screen and (min-width : 1600px) {
+    .heroContainer {
+        display          : flex;
+        justify-content  : space-between;
+        padding-left     : 10px;
+        padding-right    : 10px;
+        margin-top       : 30px;
+        text-align       : left;
+        background-image : url("../assets/sectionOneBg.png");
+        background-repeat: no-repeat;
+        background-size    : 17%;
+        background-position: left;
+    }
+
+    .heroContainerLeft {
+        width      : 25%;
+        margin-top : 40px;
+        margin-left: 13%;
+    }
+
+    .heroContainerRight {
+        align-items : center;
+        margin-right: 20px;
+        width       : 40%;
+    }
+
+    .firstHeading {
+        font-family   : Poppins;
+        font-size     : 64px;
+        font-weight   : 600;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : var(--secondary-color);
+    }
+
+    .secondHeading {
+        font-family   : Poppins;
+        font-size     : 50px;
+        font-weight   : 600;
+        line-height   : 60px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : var(--light-color);
+        margin-top    : 0px;
+        overflow-y    : hidden;
+    }
+
+    .heroContent {
+        width        : 100%;
+        margin-top   : 30px;
+        text-align   : left;
+        margin-bottom: 10px;
+    }
+
+    .heroCta {
+        height          : 50px;
+        width           : 136px;
+        left            : 95px;
+        top             : 703px;
+        border-radius   : 50px;
+        background-color: var(--primary-color);
+        border          : none;
+        color           : #fff;
+        cursor          : pointer;
+        margin-top      : 20px;
+        font-size       : 16px;
+        margin-left     : 0%;
+    }
+
+    .heroImage {
+        position: relative;
+        z-index : -1;
+        top     : 0px;
+        opacity : 1;
+        width   : 530px;
+        height  : 530px;
+        left    : 0px;
+
+    }
+}

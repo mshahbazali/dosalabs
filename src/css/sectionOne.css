@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --primary-color  : #5CAC0E;
+    --secondary-color: #FF9800;
+    --light-color    : #FFB573;
+}
+
+* {
+    padding    : 0;
+    margin     : 0;
+    font-family: Poppins;
+}
+
+/* Responsive  */
+
+
+
+/* Small Mobile */
+
+@media only screen and (min-width : 200px) {}
+
+/* Smart Mobile  */
+
+@media only screen and (min-width : 320px) {
+    .sectionOneContainer {
+        text-align     : center;
+        justify-content: center;
+        margin-bottom  : 20px;
+        margin-top     : 90px;
+        margin-left    : 10px;
+        margin-right   : 10px;
+
+    }
+
+    .subheading {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 23px;
+    }
+
+    .headingContainer {
+        margin-top   : 4px;
+        margin-bottom: 30px;
+    }
+
+    .heading {
+        text-align : center;
+        font-size  : 25px;
+        font-weight: 800;
+    }
+
+    .deliveryCardContainer {
+        display        : block;
+        justify-content: center;
+    }
+
+    .deliveryCard {
+        width        : 100%;
+        margin-bottom: 40px;
+    }
+
+    .deliveryCardImage {
+        width: 170px;
+    }
+
+    .deliveryCardImage2 {
+        width: 141px;
+    }
+
+    .deliveryCardImage3 {
+        width        : 250px;
+        margin-bottom: -40px;
+        margin-top   : -38px;
+    }
+
+    .deliveryCardHeading {
+        color     : var(--secondary-color);
+        font-size : 22px;
+        margin-top: 10px;
+
+    }
+
+    .deliveryCardContent {
+        font-size : 16px;
+        margin-top: 6px;
+    }
+}
+
+/* Tablet  */
+
+@media only screen and (min-width : 768px) {
+    .sectionOneContainer {
+        text-align     : center;
+        justify-content: center;
+        margin-bottom  : 20px;
+        margin-top     : 40px;
+
+    }
+
+    .subheading {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 24px;
+    }
+
+    .headingContainer {
+        margin-top   : 10px;
+        margin-bottom: 30px;
+    }
+
+    .heading {
+        text-align : center;
+        font-size  : 24px;
+        font-weight: 800;
+    }
+
+    .deliveryCardContainer {
+        display        : flex;
+        justify-content: center;
+        margin-top     : 0px;
+    }
+
+    .deliveryCard {
+        width     : 33%;
+        margin-top: 30px;
+    }
+
+    .deliveryCardImage {
+        width: 170px;
+    }
+
+    .deliveryCardImage2 {
+        width: 141px;
+    }
+
+    .deliveryCardImage3 {
+        width        : 250px;
+        margin-bottom: -40px;
+        margin-top   : -38px;
+    }
+
+    .deliveryCardHeading {
+        color     : var(--secondary-color);
+        font-size : 22px;
+        margin-top: 10px;
+
+    }
+
+    .deliveryCardContent {
+        font-size : 16px;
+        margin-top: 6px;
+    }
+}
+
+/* Laptop  */
+
+@media only screen and (min-width : 1200px) {
+    .sectionOneContainer {
+        text-align         : center;
+        justify-content    : center;
+        margin-bottom      : 20px;
+        margin-top         : 30px;
+        background-image   : url('../assets/menubg.png');
+        background-size    : contain;
+        background-repeat  : no-repeat;
+        background-position: center;
+    }
+
+    .subheading {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 20px;
+    }
+
+    .headingContainer {
+        margin-top   : 10px;
+        margin-bottom: 30px;
+    }
+
+    .heading {
+        text-align : center;
+        font-size  : 25px;
+        font-weight: 800;
+    }
+
+    .deliveryCardContainer {
+        display        : flex;
+        justify-content: center;
+        margin-top     : 0px;
+
+    }
+
+    .deliveryCard {
+        width     : 33%;
+        margin-top: 30px;
+    }
+
+    .deliveryCardImage {
+        width: 170px;
+    }
+
+    .deliveryCardImage2 {
+        width: 141px;
+    }
+
+    .deliveryCardImage3 {
+        width        : 250px;
+        margin-bottom: -40px;
+        margin-top   : -38px;
+    }
+
+    .deliveryCardHeading {
+        color     : var(--secondary-color);
+        font-size : 22px;
+        margin-top: 10px;
+
+    }
+
+    .deliveryCardContent {
+        font-size : 16px;
+        margin-top: 6px;
+    }
+}
+
+/* Desktop  */
+
+@media only screen and (min-width : 1600px) {
+    .sectionOneContainer {
+        text-align     : center;
+        justify-content: center;
+        margin-bottom  : 20px;
+        margin-top     : 30px;
+        background     : url('../assets/menubg.png') no-repeat cover;
+    }
+
+    .subheading {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 20px;
+    }
+
+    .headingContainer {
+        margin-top   : 10px;
+        margin-bottom: 30px;
+    }
+
+    .heading {
+        text-align : center;
+        font-size  : 25px;
+        font-weight: 800;
+    }
+
+    .deliveryCardContainer {
+        display        : flex;
+        justify-content: center;
+        margin-top     : 0px;
+
+    }
+
+    .deliveryCard {
+        width     : 33%;
+        margin-top: 30px;
+    }
+
+    .deliveryCardImage {
+        width: 170px;
+    }
+
+    .deliveryCardImage2 {
+        width: 141px;
+    }
+
+    .deliveryCardImage3 {
+        width        : 250px;
+        margin-bottom: -40px;
+        margin-top   : -38px;
+    }
+
+    .deliveryCardHeading {
+        color     : var(--secondary-color);
+        font-size : 22px;
+        margin-top: 10px;
+
+    }
+
+    .deliveryCardContent {
+        font-size : 16px;
+        margin-top: 6px;
+    }
+}

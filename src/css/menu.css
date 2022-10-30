@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --primary-color  : #5CAC0E;
+    --secondary-color: #FF9800;
+    --light-color    : #FFB573;
+}
+
+* {
+    padding    : 0;
+    margin     : 0;
+    font-family: Poppins;
+    overflow-x : hidden;
+}
+
+/* Responsive  */
+
+
+
+/* Small Mobile */
+
+@media only screen and (min-width : 200px) {}
+
+/* Smart Mobile  */
+
+@media only screen and (min-width : 320px) {
+    .menusContainer {
+        padding-left: 0px;
+        margin-top  : 70px;
+        text-align  : center;
+        width       : 100%;
+        align-items : center;
+    }
+
+    .menuTitleContainer {
+        margin-bottom: 10px;
+    }
+
+    .menuTitle {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 24px;
+    }
+
+    .menuHeadingContainer {
+        width: 100%;
+    }
+
+    .menuHeading {
+        font-weight : 900;
+        font-size   : 25px;
+        margin-left : 20px;
+        margin-right: 20px;
+    }
+
+    .menusItemContainer {
+        margin-top     : 40px;
+        display        : flex;
+        justify-content: space-around;
+        flex-wrap      : wrap;
+        padding-left   : 10px;
+        padding-right  : 10px;
+    }
+
+    .menusItem {
+        display         : flex;
+        background-color: transparent;
+        width           : 45%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 20px;
+        text-align      : center;
+        margin-bottom   : 30px;
+    }
+
+    .menusItemImage {
+        width       : 40px;
+        margin-right: 5px;
+        margin-top  : 7px;
+    }
+
+    .menusItemName {
+        color      : white;
+        font-weight: 500;
+    }
+
+    .menusDetailContainer {
+        margin-top     : 40px;
+        margin-bottom  : 60px;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .menusName {
+        text-align   : center;
+        color        : var(--secondary-color);
+        font-weight  : 600;
+        font-size    : 32px;
+        margin-bottom: 5px;
+
+    }
+
+    .menusContent {
+        text-align   : center;
+        font-weight  : 400;
+        font-size    : 18px;
+        margin-bottom: 20px;
+    }
+
+    .menusCardContainer {
+        display         : block;
+        margin-bottom   : 60px;
+        width           : 100%;
+        text-align      : center;
+        align-items     : center;
+        /* flex-wrap    : wrap; */
+    }
+
+    .menusCard {
+        width        : 100%;
+        margin-bottom: 11rem;
+        margin-left  : 20px;
+        margin-right : 20px;
+        text-align   : center;
+        align-items  : center;
+
+    }
+
+    .menusCardImage {
+        z-index      : -1;
+        position     : absolute;
+        left         : 20px;
+        right        : 20px;
+        width        : 90%;
+        border-radius: 20px;
+        text-align   : center;
+    }
+
+    .menusCardName {
+        color      : white;
+        margin-top : 40px;
+        font-weight: 600;
+        text-align : center;
+    }
+
+    .menusCardContent {
+        color     : white;
+        margin-top: 20px;
+        width     : 90%;
+        text-align: center;
+    }
+
+    .menusCardPriceContainer {
+        display    : flex;
+        margin-left: 20px;
+        margin-top : 20px;
+        width      : 18%;
+        text-align : center;
+        margin     : auto;
+
+    }
+
+    .menusCardPriceDollar {
+        color      : yellow;
+        font-size  : 22px;
+        font-weight: 700;
+    }
+
+    .menusCardPrice {
+        color      : white;
+        font-size  : 22px;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+
+    .selectedMenu {
+        display         : flex;
+        background-color: var(--primary-color);
+        width           : 45%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 20px;
+        text-align      : center;
+        margin-bottom   : 30px;
+
+    }
+
+    .menusItemNameSelected {
+        color      : var(--primary-color);
+        font-weight: 500;
+        font-size  : 15px;
+    }
+}
+
+/* Tablet  */
+
+@media only screen and (min-width : 768px) {
+    .menusContainer {
+        padding-left: 10px;
+        margin-top  : 70px;
+        margin-right: 10px;
+    }
+
+    .menuTitleContainer {
+        margin-bottom: 10px;
+    }
+
+    .menuTitle {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 24px;
+    }
+
+    .menuHeadingContainer {
+        width: 100%;
+    }
+
+    .menuHeading {
+        font-weight: 900;
+        font-size  : 24px;
+    }
+
+    .menusItemContainer {
+        margin-top     : 40px;
+        display        : flex;
+        justify-content: space-around;
+        padding-left   : 10px;
+        padding-right  : 27px;
+    }
+
+    .menusItem {
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 20px;
+        text-align      : center;
+        margin-bottom   : 30px;
+        background-color: transparent;
+        cursor          : pointer;
+        width           : 33%;
+    }
+
+    .menusItemImage {
+        width       : 40px;
+        margin-right: 5px;
+        margin-top  : 7px;
+    }
+
+    .menusItemName {
+        color      : white;
+        font-weight: 500;
+        font-size  : 15px;
+    }
+
+    .menusDetailContainer {
+        margin-top     : 40px;
+        margin-bottom  : 60px;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .menusName {
+        text-align   : center;
+        color        : var(--secondary-color);
+        font-weight  : 600;
+        font-size    : 32px;
+        margin-bottom: 20px;
+    }
+
+    .menusContent {
+        text-align   : center;
+        font-weight  : 400;
+        font-size    : 25px;
+        margin-bottom: 20px;
+    }
+
+    .menusCardContainer {
+        display      : flex;
+        margin-bottom: 60px;
+        flex-wrap    : wrap;
+    }
+
+    .menusCard {
+        width        : 45%;
+        margin-bottom: 0px;
+        margin-top   : 19px;
+        margin-left  : 0px;
+        position     : relative;
+    }
+
+    .menusCardImage {
+        z-index      : -1;
+        position     : absolute;
+        width        : 90%;
+        height       : 100%;
+        border-radius: 20px;
+        margin       : auto;
+    }
+
+    .menusCardName {
+        color      : white;
+        font-weight: 600;
+        text-align : center;
+    }
+
+    .menusCardContent {
+        color : white;
+        margin: auto;
+
+        text-align: center;
+
+    }
+
+    .menusCardPriceContainer {
+        display      : flex;
+        padding-left : 20px;
+        margin-bottom: 20px;
+    }
+
+    .menusCardPriceDollar {
+        color      : yellow;
+        font-size  : 22px;
+        font-weight: 700;
+    }
+
+    .menusCardPrice {
+        color      : white;
+        font-size  : 22px;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+
+    .selectedMenu {
+        display         : flex;
+        background-color: var(--primary-color);
+        width           : 18%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 20px;
+        text-align      : center;
+        margin-bottom   : 30px;
+        cursor          : pointer;
+        width           : 33%;
+    }
+
+    .menusItemNameSelected {
+        color      : var(--primary-color);
+        font-weight: 500;
+        font-size  : 15px;
+    }
+
+}
+
+
+/* Laptop  */
+
+@media only screen and (min-width : 1200px) {
+    .menusContainer {
+        padding-left : 10px;
+        padding-right: 10px;
+
+        margin-top: 80px;
+    }
+
+    .menuTitleContainer {
+        margin-bottom: 10px;
+    }
+
+    .menuTitle {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 23px;
+    }
+
+    .menuHeadingContainer {
+        width : 470px;
+        margin: auto;
+    }
+
+    .menuHeading {
+        font-weight: 900;
+        font-size  : 24px;
+    }
+
+    .menusItemContainer {
+        display        : flex;
+        justify-content: space-around;
+        width          : 100%;
+        margin         : auto;
+        padding-right  : 10px;
+        padding-top    : 50px;
+    }
+
+    .menusItem {
+        display         : flex;
+        background-color: transparent;
+        width           : 17%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 20px;
+        text-align      : center;
+        margin-bottom   : 30px;
+
+
+    }
+
+    .menusItemImage {
+        width       : 35px;
+        margin-right: 5px;
+        margin-top  : 2px;
+    }
+
+    .menusItemName {
+        color      : white;
+        font-weight: 500;
+        font-size  : 17px;
+    }
+
+    .menusDetailContainer {
+        margin-top     : 40px;
+        margin-bottom  : 60px;
+        justify-content: center;
+        align-items    : center;
+        position       : relative;
+        padding-left   : 10px;
+        padding-right  : 10px;
+    }
+
+    .menusName {
+        text-align   : center;
+        color        : var(--secondary-color);
+        font-weight  : 600;
+        font-size    : 32px;
+        margin-bottom: 5px;
+    }
+
+    .menusContent {
+        text-align   : center;
+        font-weight  : 400;
+        font-size    : 22px;
+        margin-bottom: 20px;
+    }
+
+    .menusCardContainer {
+        display            : flex;
+        justify-content    : center;
+        margin-bottom      : 60px;
+        flex-wrap          : wrap;
+        background-image   : url('../assets//menuitembg.png');
+        background-size    : contain;
+        background-repeat  : no-repeat;
+        background-position: center;
+    }
+
+    .menusCard {
+        width        : 27%;
+        margin-bottom: 20px;
+        margin-top   : 50px;
+        margin-left  : 0px;
+        position     : relative;
+        height       : 220px;
+    }
+
+    .menusCardImage {
+        z-index      : -1;
+        position     : absolute;
+        width        : 90%;
+        height       : 100%;
+        border-radius: 20px;
+    }
+
+    .menusCardName {
+        color      : white;
+        font-weight: 600;
+        text-align : center;
+    }
+
+    .menusCardContent {
+        color     : white;
+        text-align: center;
+        width     : 90%;
+        margin    : auto;
+        position  : relative;
+    }
+
+    .menusCardPriceContainer {
+        display     : flex;
+        padding-left: 20px;
+        margin      : auto;
+        width       : 18%;
+        align-items : center;
+        text-align  : center;
+    }
+
+    .menusCardPriceDollar {
+        color        : yellow;
+        font-size    : 22px;
+        font-weight  : 700;
+        text-align   : center;
+        margin-bottom: 20px;
+
+    }
+
+    .menusCardPrice {
+        color        : white;
+        font-size    : 22px;
+        font-weight  : 700;
+        text-align   : center;
+        margin-bottom: 20px;
+
+
+    }
+
+    .selectedMenu {
+        display         : flex;
+        background-color: var(--primary-color);
+        width           : 17%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 15px;
+        text-align      : center;
+        margin-bottom   : 30px;
+    }
+
+    .menusItemNameSelected {
+        color      : var(--primary-color);
+        font-weight: 500;
+        font-size  : 19px;
+    }
+}
+
+/* Desktop  */
+
+@media only screen and (min-width : 1600px) {
+    .menusContainer {
+        padding-left : 10px;
+        padding-right: 10px;
+
+        margin-top: 80px;
+    }
+
+    .menuTitleContainer {
+        margin-bottom: 10px;
+    }
+
+    .menuTitle {
+        color      : var(--secondary-color);
+        font-weight: 600;
+        font-size  : 23px;
+    }
+
+    .menuHeadingContainer {
+        width : 470px;
+        margin: auto;
+    }
+
+    .menuHeading {
+        font-weight: 900;
+        font-size  : 24px;
+    }
+
+    .menusItemContainer {
+        display        : flex;
+        justify-content: space-around;
+        width          : 100%;
+        margin         : auto;
+        padding-right  : 10px;
+        padding-top    : 50px;
+    }
+
+    .menusItem {
+        display         : flex;
+        background-color: transparent;
+        width           : 17%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 20px;
+        text-align      : center;
+        margin-bottom   : 30px;
+
+
+    }
+
+    .menusItemImage {
+        width       : 35px;
+        margin-right: 5px;
+        margin-top  : 2px;
+    }
+
+    .menusItemName {
+        color      : white;
+        font-weight: 500;
+        font-size  : 17px;
+    }
+
+    .menusDetailContainer {
+        margin-top     : 40px;
+        margin-bottom  : 60px;
+        justify-content: center;
+        align-items    : center;
+        position       : relative;
+        padding-left   : 10px;
+        padding-right  : 10px;
+    }
+
+    .menusName {
+        text-align   : center;
+        color        : var(--secondary-color);
+        font-weight  : 600;
+        font-size    : 32px;
+        margin-bottom: 5px;
+    }
+
+    .menusContent {
+        text-align   : center;
+        font-weight  : 400;
+        font-size    : 22px;
+        margin-bottom: 20px;
+    }
+
+    .menusCardContainer {
+        display            : flex;
+        justify-content    : center;
+        margin-bottom      : 60px;
+        flex-wrap          : wrap;
+        background-image   : url('../assets//menuitembg.png');
+        background-size    : contain;
+        background-repeat  : no-repeat;
+        background-position: center;
+    }
+
+    .menusCard {
+        width        : 27%;
+        margin-bottom: 20px;
+        margin-top   : 50px;
+        margin-left  : 0px;
+        position     : relative;
+        height       : 220px;
+    }
+
+    .menusCardImage {
+        z-index      : -1;
+        position     : absolute;
+        width        : 90%;
+        height       : 100%;
+        border-radius: 20px;
+    }
+
+    .menusCardName {
+        color      : white;
+        font-weight: 600;
+        text-align : center;
+    }
+
+    .menusCardContent {
+        color     : white;
+        text-align: center;
+        width     : 90%;
+        margin    : auto;
+        position  : relative;
+    }
+
+    .menusCardPriceContainer {
+        display     : flex;
+        padding-left: 20px;
+        margin      : auto;
+        width       : 18%;
+        align-items : center;
+        text-align  : center;
+    }
+
+    .menusCardPriceDollar {
+        color        : yellow;
+        font-size    : 22px;
+        font-weight  : 700;
+        text-align   : center;
+        margin-bottom: 20px;
+
+    }
+
+    .menusCardPrice {
+        color        : white;
+        font-size    : 22px;
+        font-weight  : 700;
+        text-align   : center;
+        margin-bottom: 20px;
+
+
+    }
+
+    .selectedMenu {
+        display         : flex;
+        background-color: var(--primary-color);
+        width           : 17%;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 15px;
+        text-align      : center;
+        margin-bottom   : 30px;
+    }
+
+    .menusItemNameSelected {
+        color      : var(--primary-color);
+        font-weight: 500;
+        font-size  : 19px;
+    }
+}
