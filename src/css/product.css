@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 :root {
-    --primary-color  : #5CAC0E;
+    --primary-color: #5CAC0E;
     --secondary-color: #FF9800;
-    --light-color    : #FFB573;
+    --light-color: #FFB573;
 }
 
 * {
-    padding    : 0;
-    margin     : 0;
+    padding: 0;
+    margin: 0;
     font-family: Poppins;
 }
 
@@ -24,32 +24,32 @@
 
 @media only screen and (min-width : 320px) {
     .productContainer {
-        margin-top       : 20px;
-        text-align       : center;
-        background-image : url("../assets/productbg.png");
+        margin-top: 20px;
+        text-align: center;
+        background-image: url("../assets/productbg.png");
         background-repeat: no-repeat;
-        background-size  : cover;
+        background-size: cover;
     }
 
     .productTopContainer {}
 
     .productName {
-        font-size  : 27px;
-        color      : var(--secondary-color);
+        font-size: 27px;
+        color: var(--secondary-color);
         font-weight: 700;
     }
 
     .productContent {
-        font-size  : 22px;
-        color      : var(--primary-color);
+        font-size: 22px;
+        color: var(--primary-color);
         font-weight: 500;
-        margin-top : 10px;
+        margin-top: 10px;
     }
 
     .productMetaContainer {
-        display        : block;
+        display: block;
         justify-content: center;
-        margin-top     : 55px;
+        margin-top: 55px;
     }
 
     .productMetaLeftContainer {
@@ -57,59 +57,59 @@
     }
 
     .primaryImage {
-        width        : 340px;
+        width: 340px;
         border-radius: 20px;
     }
 
     .imagesSlider {
-        margin-top   : 14px;
+        margin-top: 14px;
         margin-bottom: 40px;
-        margin-left  : 30px;
+        margin-left: 30px;
     }
 
     .imagePlaceHolder {
-        width        : 140px;
+        width: 140px;
         border-radius: 20px;
-        margin-right : 10px;
+        margin-right: 10px;
     }
 
     .productMetaRightContainer {
-        text-align   : left;
-        margin-top   : 10px;
-        padding-left : 20px;
+        text-align: left;
+        margin-top: 10px;
+        padding-left: 20px;
         margin-bottom: 20px;
     }
 
     .productPriceHeading {
-        font-size    : 25px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .priceMeta {}
 
     .dollarSign {
-        color      : #f2c94c;
-        font-size  : 18px;
+        color: #f2c94c;
+        font-size: 18px;
         font-weight: 600;
     }
 
     .productPrice {
-        color      : #000;
-        font-size  : 25px;
+        color: #000;
+        font-size: 25px;
         font-weight: 900;
     }
 
     .productDesHeading {
-        margin-top   : 30px;
-        font-size    : 25px;
+        margin-top: 30px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .productDesContent {
-        font-size    : 14px;
+        font-size: 14px;
         margin-bottom: 10px;
-        width        : 240px;
-        margin-right : 40px;
+        width: 240px;
+        margin-right: 40px;
     }
 }
 
@@ -117,54 +117,54 @@
 
 @media only screen and (min-width : 768px) {
     .productContainer {
-        margin-top       : 20px;
-        text-align       : center;
-        background-image : url("../assets/productbg.png");
+        margin-top: 20px;
+        text-align: center;
+        background-image: url("../assets/productbg.png");
         background-repeat: no-repeat;
-        background-size  : cover;
+        background-size: cover;
     }
 
     .productTopContainer {}
 
     .productName {
-        font-size  : 27px;
-        color      : var(--secondary-color);
+        font-size: 27px;
+        color: var(--secondary-color);
         font-weight: 700;
     }
 
     .productContent {
-        font-size  : 22px;
-        color      : var(--primary-color);
+        font-size: 22px;
+        color: var(--primary-color);
         font-weight: 500;
-        margin-top : 10px;
+        margin-top: 10px;
     }
 
     .productMetaContainer {
-        display        : flex;
+        display: flex;
         justify-content: center;
-        margin-top     : 55px;
+        margin-top: 55px;
     }
 
     .productMetaLeftContainer {
         margin-right: 40px;
-        width       : 500px;
+        width: 500px;
     }
 
     .primaryImage {
-        width        : 400px;
+        width: 400px;
         border-radius: 20px;
     }
 
     .imagesSlider {
-        margin-top   : 14px;
+        margin-top: 14px;
         margin-bottom: 40px;
-        margin-left  : 30px;
+        margin-left: 30px;
     }
 
     .imagePlaceHolder {
-        width        : 140px;
+        width: 140px;
         border-radius: 20px;
-        margin-right : 10px;
+        margin-right: 10px;
     }
 
     .productMetaRightContainer {
@@ -173,35 +173,35 @@
     }
 
     .productPriceHeading {
-        font-size    : 25px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .priceMeta {}
 
     .dollarSign {
-        color      : #f2c94c;
-        font-size  : 18px;
+        color: #f2c94c;
+        font-size: 18px;
         font-weight: 600;
     }
 
     .productPrice {
-        color      : #000;
-        font-size  : 25px;
+        color: #000;
+        font-size: 25px;
         font-weight: 900;
     }
 
     .productDesHeading {
-        margin-top   : 30px;
-        font-size    : 25px;
+        margin-top: 30px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .productDesContent {
-        font-size    : 14px;
+        font-size: 14px;
         margin-bottom: 10px;
-        width        : 240px;
-        margin-right : 40px;
+        width: 240px;
+        margin-right: 40px;
     }
 }
 
@@ -210,34 +210,35 @@
 
 @media only screen and (min-width : 1200px) {
     .productContainer {
-        margin-top         : 20px;
-        text-align         : center;
-        background-image   : url("../assets/productbg.png");
-        background-repeat  : no-repeat;
-        background-size    : contain;
-        background-position: right;
+        margin-top: 20px;
+        text-align: center;
+        background-image: url("../assets/productbg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 86%;
+        height: 100vh;
 
     }
 
     .productTopContainer {}
 
     .productName {
-        font-size  : 34px;
-        color      : var(--secondary-color);
+        font-size: 34px;
+        color: var(--secondary-color);
         font-weight: 700;
     }
 
     .productContent {
-        font-size  : 25px;
-        color      : var(--primary-color);
+        font-size: 25px;
+        color: var(--primary-color);
         font-weight: 500;
-        margin-top : 18px;
+        margin-top: 18px;
     }
 
     .productMetaContainer {
-        display        : flex;
+        display: flex;
         justify-content: flex-start;
-        margin-top     : 55px;
+        margin-top: 55px;
     }
 
     .productMetaLeftContainer {
@@ -245,57 +246,57 @@
     }
 
     .primaryImage {
-        width        : 500px;
+        width: 500px;
         border-radius: 20px;
     }
 
     .imagesSlider {
-        margin-top   : 14px;
+        margin-top: 14px;
         margin-bottom: 40px;
-        width        : 90%;
+        width: 90%;
     }
 
     .imagePlaceHolder {
-        width        : 140px;
+        width: 140px;
         border-radius: 20px;
-        margin-right : 10px;
+        margin-right: 10px;
     }
 
     .productMetaRightContainer {
-        text-align : left;
-        margin-top : 30px;
+        text-align: left;
+        margin-top: 10px;
         align-items: flex-start;
     }
 
     .productPriceHeading {
-        font-size    : 25px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .priceMeta {}
 
     .dollarSign {
-        color      : #f2c94c;
-        font-size  : 18px;
+        color: #f2c94c;
+        font-size: 18px;
         font-weight: 600;
     }
 
     .productPrice {
-        color      : #000;
-        font-size  : 25px;
+        color: #000;
+        font-size: 25px;
         font-weight: 900;
     }
 
     .productDesHeading {
-        margin-top   : 30px;
-        font-size    : 25px;
+        margin-top: 30px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .productDesContent {
-        font-size    : 14px;
+        font-size: 14px;
         margin-bottom: 10px;
-        width        : 340px;
+        width: 340px;
     }
 }
 
@@ -304,91 +305,92 @@
 
 @media only screen and (min-width : 1600px) {
     .productContainer {
-        margin-top         : 20px;
-        text-align         : center;
-        background-image   : url("../assets/productbg.png");
-        background-repeat  : no-repeat;
-        background-size    : contain;
-        background-position: right;
+        margin-top: 20px;
+        text-align: center;
+        background-image: url("../assets/productbg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 86%;
+        height: 100vh;
+
     }
 
     .productTopContainer {}
 
     .productName {
-        font-size  : 27px;
-        color      : var(--secondary-color);
+        font-size: 34px;
+        color: var(--secondary-color);
         font-weight: 700;
     }
 
     .productContent {
-        font-size  : 22px;
-        color      : var(--primary-color);
+        font-size: 25px;
+        color: var(--primary-color);
         font-weight: 500;
-        margin-top : 10px;
+        margin-top: 18px;
     }
 
     .productMetaContainer {
-        display        : flex;
-        justify-content: center;
-        margin-top     : 55px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 55px;
     }
 
     .productMetaLeftContainer {
-        margin-right: 40px;
-        width       : 500px;
+        width: 590px;
     }
 
     .primaryImage {
-        width        : 500px;
+        width: 500px;
         border-radius: 20px;
     }
 
     .imagesSlider {
-        margin-top   : 14px;
+        margin-top: 14px;
         margin-bottom: 40px;
-        margin-left  : 0px;
-
+        width: 90%;
     }
 
     .imagePlaceHolder {
-        width        : 140px;
+        width: 140px;
         border-radius: 20px;
-        margin-right : 10px;
+        margin-right: 10px;
     }
 
     .productMetaRightContainer {
         text-align: left;
-        margin-top: 30px;
+        margin-top: 10px;
+        align-items: flex-start;
     }
 
     .productPriceHeading {
-        font-size    : 25px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .priceMeta {}
 
     .dollarSign {
-        color      : #f2c94c;
-        font-size  : 18px;
+        color: #f2c94c;
+        font-size: 18px;
         font-weight: 600;
     }
 
     .productPrice {
-        color      : #000;
-        font-size  : 25px;
+        color: #000;
+        font-size: 25px;
         font-weight: 900;
     }
 
     .productDesHeading {
-        margin-top   : 30px;
-        font-size    : 25px;
+        margin-top: 30px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
 
     .productDesContent {
-        font-size    : 14px;
+        font-size: 14px;
         margin-bottom: 10px;
-        width        : 340px;
+        width: 340px;
     }
 }

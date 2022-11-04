@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+
 export default function Index() {
     const [selectMenu, setSelectMenu] = useState(0)
     const [popUpShow, setPopupShow] = useState()
@@ -63,7 +64,37 @@ export default function Index() {
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
                     price: '20'
-                }
+                },
+                {
+                    image: "p8",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p9",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p10",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p11",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p12",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
             ]
         },
         {
@@ -72,11 +103,41 @@ export default function Index() {
             content: "4 oz, for those love a meal with their dip",
             item: [
                 {
-                    image: "p8",
+                    image: "p13",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
                     price: '20'
-                }
+                },
+                {
+                    image: "p14",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p15",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p16",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p17",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p18",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
             ]
         },
         {
@@ -85,11 +146,41 @@ export default function Index() {
             content: "Our select favorite alternatives",
             item: [
                 {
-                    image: "p9",
+                    image: "p21",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
                     price: '20'
-                }
+                },
+                {
+                    image: "p1",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p2",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p3",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p4",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p5",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
             ]
         },
         {
@@ -98,11 +189,47 @@ export default function Index() {
             content: "Fluids – quench and electrolytic",
             item: [
                 {
+                    image: "p6",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p7",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p8",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p9",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
                     image: "p10",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
                     price: '20'
-                }
+                },
+                {
+                    image: "p11",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
+                {
+                    image: "p12",
+                    name: "Must-Have Masala",
+                    content: "Potato mix seasoned with mustard seeds",
+                    price: '20'
+                },
             ]
         },
 
@@ -161,7 +288,6 @@ export default function Index() {
                                                     </div>
                                                     <div className='popupBtnContainer'>
                                                         <Link to={`/product/${e.slug}`}>
-
                                                             <button className='popupCta'>View Details</button>
                                                         </Link>
                                                     </div>

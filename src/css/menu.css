@@ -453,7 +453,7 @@
     }
 
     .menusCard {
-        width        : 27%;
+        width        : 22%;
         margin-bottom: 20px;
         margin-top   : 50px;
         margin-left  : 0px;
@@ -635,7 +635,7 @@
         margin-top   : 50px;
         margin-left  : 0px;
         position     : relative;
-        height       : 220px;
+        height       : 320px;
     }
 
     .menusCardImage {
