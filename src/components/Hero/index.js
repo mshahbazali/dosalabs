@@ -4,9 +4,9 @@ export default function index() {
     return (
         <div className='heroContainer'>
             <div className='heroContainerLeft'>
-                <h2 className='firstHeading'>Delicious</h2>
-                <h2 className='secondHeading'>Quench the Hunger</h2>
-                <p className='heroContent'>Our job is to filling your tummy with delicious food and  with fast and free delivery</p>
+                <h2 className='firstHeading'>Texas Born </h2>
+                <h2 className='secondHeading'>INDIAN Inspired</h2>
+                <p className='heroContent'>Feel the joy of mouthwatering food from south India. Once you try it you will love it.</p>
                 <button className='heroCta'>Explore More</button>
             </div>
             <div className='heroContainerRight'>
