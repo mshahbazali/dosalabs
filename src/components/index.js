@@ -5,4 +5,5 @@ import Menu from './Menu'
 import { DeliveryCard } from './Card'
 import About from './About'
 import Product from './Product'
-export { Header, Hero, SectionOne, DeliveryCard, Menu, About, Product }
+import Map from './Map'
+export { Header, Hero, SectionOne, DeliveryCard, Menu, About, Product, Map }

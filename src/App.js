@@ -6,6 +6,7 @@ import './css/menu.css'
 import './css/about.css'
 import './css/popup.css'
 import './css/product.css'
+import './css/location.css'
 import "react-multi-carousel/lib/styles.css";
 
 import Home from './pages/Home'

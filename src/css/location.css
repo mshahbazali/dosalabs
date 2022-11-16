@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --primary-color  : #5CAC0E;
+    --secondary-color: #FF9800;
+    --light-color    : #FFB573;
+}
+
+* {
+    padding    : 0;
+    margin     : 0;
+    font-family: Poppins;
+}
+
+/* Responsive  */
+
+
+
+/* Small Mobile */
+
+@media only screen and (min-width : 200px) {}
+
+/* Smart Mobile  */
+
+@media only screen and (min-width : 320px) {
+    .locationContainer {
+        display        : block;
+        justify-content: center;
+        padding-bottom : 90px;
+        align-items    : center;
+        padding-left   : 35px;
+    }
+
+    .mapContainer {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .addressContainer {
+        display      : flex;
+        margin-bottom: 20px;
+    }
+
+    .locationIcon {
+        width       : 25px;
+        margin-right: 10px;
+        height      : 35px;
+    }
+
+    .address {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 80%;
+        margin-top : -5px;
+    }
+
+    .timignHeading {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : -5px;
+    }
+
+    .timing {
+        font-size  : 18px;
+        font-weight: 500;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : 10px;
+    }
+
+    .timingIcon {
+        width       : 30px;
+        margin-right: 10px;
+        height      : 30px;
+    }
+
+    .timingContainer {
+        display   : flex;
+        margin-top: 30px;
+    }
+}
+
+/* Tablet  */
+
+@media only screen and (min-width : 768px) {
+    .locationContainer {
+        display        : flex;
+        justify-content: center;
+        padding-bottom : 90px;
+        align-items    : center;
+        padding-left   : 35px;
+    }
+
+    .mapContainer {
+        margin-right: 30px;
+    }
+
+    .addressContainer {
+        display      : flex;
+        margin-bottom: 20px;
+    }
+
+    .locationIcon {
+        width       : 25px;
+        margin-right: 10px;
+        height      : 35px;
+    }
+
+    .address {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 80%;
+        margin-top : -5px;
+    }
+
+    .timignHeading {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : -5px;
+    }
+
+    .timing {
+        font-size  : 18px;
+        font-weight: 500;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : 10px;
+    }
+
+    .timingIcon {
+        width       : 30px;
+        margin-right: 10px;
+        height      : 30px;
+    }
+
+    .timingContainer {
+        display   : flex;
+        margin-top: 30px;
+    }
+}
+
+/* Laptop  */
+
+@media only screen and (min-width : 1200px) {
+    .locationContainer {
+        display        : flex;
+        justify-content: center;
+        padding-bottom : 90px;
+        align-items    : center;
+    }
+
+    .mapContainer {
+        margin-right: 30px;
+    }
+
+    .addressContainer {
+        display      : flex;
+        margin-bottom: 20px;
+    }
+
+    .locationIcon {
+        width       : 25px;
+        margin-right: 10px;
+        height      : 35px;
+    }
+
+    .address {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 80%;
+        margin-top : -5px;
+    }
+
+    .timignHeading {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : -5px;
+    }
+
+    .timing {
+        font-size  : 18px;
+        font-weight: 500;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : 10px;
+    }
+
+    .timingIcon {
+        width       : 30px;
+        margin-right: 10px;
+        height      : 30px;
+    }
+
+    .timingContainer {
+        display   : flex;
+        margin-top: 30px;
+    }
+}
+
+/* Desktop  */
+
+@media only screen and (min-width : 1600px) {
+    .locationContainer {
+        display        : flex;
+        justify-content: center;
+        padding-bottom : 90px;
+        align-items    : center;
+    }
+
+    .mapContainer {
+        margin-right: 30px;
+    }
+
+    .addressContainer {
+        display      : flex;
+        margin-bottom: 20px;
+    }
+
+    .locationIcon {
+        width       : 25px;
+        margin-right: 10px;
+        height      : 35px;
+    }
+
+    .address {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 80%;
+        margin-top : -5px;
+    }
+
+    .timignHeading {
+        font-size  : 18px;
+        font-weight: 600;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : -5px;
+    }
+
+    .timing {
+        font-size  : 18px;
+        font-weight: 500;
+        color      : var(--secondary-color);
+        width      : 100%;
+        margin-top : 10px;
+    }
+
+    .timingIcon {
+        width       : 30px;
+        margin-right: 10px;
+        height      : 30px;
+    }
+
+    .timingContainer {
+        display   : flex;
+        margin-top: 30px;
+    }
+}

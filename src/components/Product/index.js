@@ -52,7 +52,7 @@ export default function index() {
             ]
         },
         {
-            name: "SAUCES & DIPS",
+            name: "IDLI",
             icon: "sausages",
             content: "4 oz, for those love a meal with their dip",
             item: [
@@ -95,8 +95,8 @@ export default function index() {
             ]
         },
         {
-            name: "H30 SHOTS",
-            icon: "h30",
+            name: "ANTI-DOSAS",
+            icon: "antidosas",
             content: "4 oz, for those love a meal with their dip",
             item: [
                 {
@@ -138,8 +138,8 @@ export default function index() {
             ]
         },
         {
-            name: "ANTI-DOSAS",
-            icon: "antidosas",
+            name: "DRINKS",
+            icon: "drinks",
             content: "Our select favorite alternatives",
             item: [
                 {
@@ -181,7 +181,7 @@ export default function index() {
             ]
         },
         {
-            name: "Drinks",
+            name: "Sides/Deserts",
             icon: "drinks",
             content: "Fluids – quench and electrolytic",
             item: [

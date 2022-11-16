@@ -55,7 +55,7 @@ export default function Index() {
             ]
         },
         {
-            name: "SAUCES & DIPS",
+            name: "IDLI",
             icon: "sausages",
             content: "4 oz, for those love a meal with their dip",
             item: [
@@ -98,8 +98,8 @@ export default function Index() {
             ]
         },
         {
-            name: "H30 SHOTS",
-            icon: "h30",
+            name: "ANTI-DOSAS",
+            icon: "antidosas",
             content: "4 oz, for those love a meal with their dip",
             item: [
                 {
@@ -141,8 +141,8 @@ export default function Index() {
             ]
         },
         {
-            name: "ANTI-DOSAS",
-            icon: "antidosas",
+            name: "DRINKS",
+            icon: "drinks",
             content: "Our select favorite alternatives",
             item: [
                 {
@@ -184,7 +184,7 @@ export default function Index() {
             ]
         },
         {
-            name: "Drinks",
+            name: "Sides/Deserts",
             icon: "drinks",
             content: "Fluids – quench and electrolytic",
             item: [
@@ -192,25 +192,25 @@ export default function Index() {
                     image: "p6",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
-                    price: '20'
+                    price: '260'
                 },
                 {
                     image: "p7",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
-                    price: '20'
+                    price: '220'
                 },
                 {
                     image: "p8",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
-                    price: '20'
+                    price: '90'
                 },
                 {
                     image: "p9",
                     name: "Must-Have Masala",
                     content: "Potato mix seasoned with mustard seeds",
-                    price: '20'
+                    price: '30'
                 },
                 {
                     image: "p10",
@@ -269,7 +269,7 @@ export default function Index() {
                                         with mustard seeds</p>
                                     <div className='menusCardPriceContainer'>
                                         <span className='menusCardPriceDollar'>$</span>
-                                        <span className='menusCardPrice'>12</span>
+                                        <span className='menusCardPrice'>{e.price}</span>
                                     </div>
                                     {
                                         popUpShow == i ?

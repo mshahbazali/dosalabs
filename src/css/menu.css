@@ -453,12 +453,12 @@
     }
 
     .menusCard {
-        width        : 22%;
+        width        : 27%;
         margin-bottom: 20px;
         margin-top   : 50px;
         margin-left  : 0px;
         position     : relative;
-        height       : 220px;
+        height       : 260px;
     }
 
     .menusCardImage {
@@ -470,9 +470,14 @@
     }
 
     .menusCardName {
-        color      : white;
-        font-weight: 600;
-        text-align : center;
+        color        : white;
+        font-weight  : 600;
+        text-align   : center;
+        font-size    : 28px;
+        margin-top   : 60px;
+        margin-bottom: 10px;
+
+
     }
 
     .menusCardContent {
@@ -481,6 +486,9 @@
         width     : 90%;
         margin    : auto;
         position  : relative;
+        font-size : 16px;
+        margin-bottom: 10px;
+
     }
 
     .menusCardPriceContainer {
@@ -494,7 +502,7 @@
 
     .menusCardPriceDollar {
         color        : yellow;
-        font-size    : 22px;
+        font-size    : 25px;
         font-weight  : 700;
         text-align   : center;
         margin-bottom: 20px;
@@ -503,12 +511,10 @@
 
     .menusCardPrice {
         color        : white;
-        font-size    : 22px;
+        font-size    : 23px;
         font-weight  : 700;
         text-align   : center;
         margin-bottom: 20px;
-
-
     }
 
     .selectedMenu {
@@ -608,7 +614,8 @@
         color        : var(--secondary-color);
         font-weight  : 600;
         font-size    : 32px;
-        margin-bottom: 5px;
+        margin-top   : 60px;
+        margin-bottom: 25px;
     }
 
     .menusContent {
@@ -647,9 +654,12 @@
     }
 
     .menusCardName {
-        color      : white;
-        font-weight: 600;
-        text-align : center;
+        color        : white;
+        font-weight  : 600;
+        text-align   : center;
+        font-size    : 28px;
+        margin-bottom: 10px;
+
     }
 
     .menusCardContent {
@@ -658,6 +668,9 @@
         width     : 90%;
         margin    : auto;
         position  : relative;
+        font-size : 16px;
+        margin-bottom: 10px;
+
     }
 
     .menusCardPriceContainer {
@@ -671,7 +684,7 @@
 
     .menusCardPriceDollar {
         color        : yellow;
-        font-size    : 22px;
+        font-size    : 27px;
         font-weight  : 700;
         text-align   : center;
         margin-bottom: 20px;
@@ -680,7 +693,7 @@
 
     .menusCardPrice {
         color        : white;
-        font-size    : 22px;
+        font-size    : 23px;
         font-weight  : 700;
         text-align   : center;
         margin-bottom: 20px;
