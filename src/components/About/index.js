@@ -10,7 +10,7 @@ export default function index() {
                 <div className='aboutContainerLeftRight'>
                     <span className='aboutContainerRightTitle'>WHAT THEY SAY</span>
                     <h2 className='aboutContainerRightHeading'>What Our Customers Say About Us</h2>
-                    <p className='customerReview'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aperiam rem, odio vitae quod temporibus deleniti qui dolore illum necessitatibus eius possimus nostrum reprehenderit tempora? Quod vel non error voluptates?</p>
+                    <p className='customerReview'>“Fudo is the best. Besides the many and delicious meals, the service is also very good, especially in the very  fast delivey. I highly recommend Fudo  to you”.</p>
                     <div className='customerReviewContainer'>
                         <img src={require("../../assets/boy.jpg")} alt="" className='customerImage' />
                         <div className='customerMetaDataConatiner'>
