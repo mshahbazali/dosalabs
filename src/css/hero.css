@@ -201,7 +201,7 @@
     }
 
     .heroContainerLeft {
-        width      : 25%;
+        width      : 35%;
         margin-top : 40px;
         margin-left: 13%;
     }
@@ -215,7 +215,7 @@
 
     .firstHeading {
         font-family   : Poppins;
-        font-size     : 64px;
+        font-size     : 58px;
         font-weight   : 600;
         letter-spacing: 0em;
         text-align    : left;
@@ -224,12 +224,12 @@
 
     .secondHeading {
         font-family   : Poppins;
-        font-size     : 50px;
+        font-size     : 48px;
         font-weight   : 600;
         line-height   : 60px;
         letter-spacing: 0em;
         text-align    : left;
-        color         : var(--light-color);
+        color         : var(--secondary-color);
         margin-top    : 0px;
         overflow-y    : hidden;
     }
@@ -272,20 +272,20 @@
 
 @media only screen and (min-width : 1600px) {
     .heroContainer {
-        display          : flex;
-        justify-content  : space-between;
-        padding-left     : 10px;
-        padding-right    : 10px;
-        margin-top       : 30px;
-        text-align       : left;
-        background-image : url("../assets/sectionOneBg.png");
-        background-repeat: no-repeat;
+        display            : flex;
+        justify-content    : space-between;
+        padding-left       : 10px;
+        padding-right      : 10px;
+        margin-top         : 30px;
+        text-align         : left;
+        background-image   : url("../assets/sectionOneBg.png");
+        background-repeat  : no-repeat;
         background-size    : 17%;
         background-position: left;
     }
 
     .heroContainerLeft {
-        width      : 25%;
+        width      : 35%;
         margin-top : 40px;
         margin-left: 13%;
     }
@@ -294,11 +294,12 @@
         align-items : center;
         margin-right: 20px;
         width       : 40%;
+
     }
 
     .firstHeading {
         font-family   : Poppins;
-        font-size     : 64px;
+        font-size     : 58px;
         font-weight   : 600;
         letter-spacing: 0em;
         text-align    : left;
@@ -307,12 +308,12 @@
 
     .secondHeading {
         font-family   : Poppins;
-        font-size     : 50px;
+        font-size     : 48px;
         font-weight   : 600;
         line-height   : 60px;
         letter-spacing: 0em;
         text-align    : left;
-        color         : var(--light-color);
+        color         : var(--secondary-color);
         margin-top    : 0px;
         overflow-y    : hidden;
     }

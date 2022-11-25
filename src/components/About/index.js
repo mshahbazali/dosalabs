@@ -5,7 +5,7 @@ export default function index() {
         <div className='lastSection'>
             <div className='aboutContainer'>
                 <div className='aboutContainerLeft'>
-                    <img src={require('../../assets/aboutimage.png')} alt="" className='aboutContainerLeftImage' />
+                    <img src={require('../../assets/aboutimg.png')} alt="" className='aboutContainerLeftImage' />
                 </div>
                 <div className='aboutContainerLeftRight'>
                     <span className='aboutContainerRightTitle'>WHAT THEY SAY</span>
@@ -28,23 +28,23 @@ export default function index() {
             <div className='footerContainer'>
                 <div className='fsection1'>
                     <img src={require("../../assets/logo.png")} alt="" className='footerLogo' />
-                    <p className='aboutContent'>Our job is to filling your tummy with delicious food and  with fast and free delivery.</p>
+                    <p className='aboutContent'>Cheer us at</p>
                     <div className='socialNetwork'>
                         <img src={require("../../assets/instagram.png")} alt="" className='socialIcon' />
                         <img src={require("../../assets/facebook.png")} alt="" className='socialIcon' />
-                        <img src={require("../../assets/twitter.png")} alt="" className='socialIcon' />
+                        {/* <img src={require("../../assets/twitter.png")} alt="" className='socialIcon' /> */}
                     </div>
                 </div>
                 <div className='fsection2'>
                     <span className='footerHeading'>About</span>
                     <ul className='footerNav'>
-                        <li className='footerNavItem'>About Us</li>
-                        <li className='footerNavItem'>Features</li>
-                        <li className='footerNavItem'>News</li>
+                        <li className='footerNavItem'>How we started?</li>
                         <li className='footerNavItem'>Menu</li>
+                        {/* <li className='footerNavItem'>News</li>
+                        <li className='footerNavItem'>Menu</li> */}
                     </ul>
                 </div>
-                <div className='fsection3'>
+                {/* <div className='fsection3'>
                     <span className='footerHeading'>Company</span>
                     <ul className='footerNav'>
                         <li className='footerNavItem'>Why Fudo?</li>
@@ -52,8 +52,8 @@ export default function index() {
                         <li className='footerNavItem'>FAQ</li>
                         <li className='footerNavItem'>Blog</li>
                     </ul>
-                </div>
-                <div className='fsection4'>
+                </div> */}
+                {/* <div className='fsection4'>
                     <span className='footerHeading'>Support</span>
                     <ul className='footerNav'>
                         <li className='footerNavItem'>Account</li>
@@ -62,14 +62,14 @@ export default function index() {
                         <li className='footerNavItem'>Contact Us</li>
                         <li className='footerNavItem'>Accessibilty</li>
                     </ul>
-                </div>
+                </div> */}
                 <div className='fsection5'>
                     <span className='footerHeading'>Get in Touch</span>
                     <p className='newsLatterContentFirst'>Question or feedback?</p>
                     <p className='newsLatterContentSecond'>We’d love to hear from you</p>
                     <div className='newslatter'>
                         <input type="text" className='newslatterInput' placeholder='Email Address' />
-                        <img src={require("../../assets/emailbtn.png")} alt="" />
+                        <img src={require("../../assets/emailbtn.png")} alt="" className='emailIcon'/>
                     </div>
                 </div>
             </div>

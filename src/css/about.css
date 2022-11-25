@@ -350,11 +350,13 @@
     }
 
     .aboutContent {
-        width: 80%;
+        width    : 80%;
+        font-size: 23px;
     }
 
     .fsection2 {
-        width: 15%;
+        width     : 15%;
+        margin-top: 0px;
 
     }
 
@@ -465,7 +467,10 @@
     .aboutContainerLeft {}
 
     .aboutContainerLeftImage {
-        width: 600px;
+        width      : 276px;
+        margin-left: 78px;
+        margin-top : 150px;
+
     }
 
     .aboutContainerLeftRight {
@@ -551,20 +556,22 @@
     }
 
     .fsection1 {
-        width: 30%;
+        width: 50%;
     }
 
     .footerLogo {
-        width        : 120px;
+        width        : 250px;
         margin-bottom: 20px;
     }
 
     .aboutContent {
-        width: 80%;
+        width    : 80%;
+        font-size: 23px;
     }
 
     .fsection2 {
-        width: 15%;
+        width     : 30%;
+        margin-top: 0px;
 
     }
 
@@ -620,6 +627,7 @@
         border-radius  : 40px;
         justify-content: space-between;
         padding-left   : 20px;
+        width          : 210px;
     }
 
     .newslatterInput {
@@ -640,18 +648,22 @@
 
     .socialNetwork {
         display   : flex;
-        margin-top: 20px;
+        margin-top: 9px;
     }
 
     .socialIcon {
-        width       : 25px;
-        margin-right: 30px;
+        width       : 35px;
+        margin-right: 10px;
     }
 
     .copyrightCredit {
         text-align   : center;
         margin-bottom: 20px;
         font-size    : 15px;
+    }
+
+    .emailIcon {
+        width: 30px;
     }
 }
 
@@ -673,7 +685,10 @@
     .aboutContainerLeft {}
 
     .aboutContainerLeftImage {
-        width: 600px;
+        width      : 276px;
+        margin-left: 78px;
+        margin-top : 150px;
+
     }
 
     .aboutContainerLeftRight {
@@ -759,20 +774,22 @@
     }
 
     .fsection1 {
-        width: 30%;
+        width: 50%;
     }
 
     .footerLogo {
-        width        : 120px;
+        width        : 250px;
         margin-bottom: 20px;
     }
 
     .aboutContent {
-        width: 80%;
+        width    : 80%;
+        font-size: 23px;
     }
 
     .fsection2 {
-        width: 15%;
+        width     : 30%;
+        margin-top: 0px;
 
     }
 
@@ -828,6 +845,7 @@
         border-radius  : 40px;
         justify-content: space-between;
         padding-left   : 20px;
+        width          : 210px;
     }
 
     .newslatterInput {
@@ -848,17 +866,21 @@
 
     .socialNetwork {
         display   : flex;
-        margin-top: 20px;
+        margin-top: 9px;
     }
 
     .socialIcon {
-        width       : 25px;
-        margin-right: 30px;
+        width       : 35px;
+        margin-right: 10px;
     }
 
     .copyrightCredit {
         text-align   : center;
         margin-bottom: 20px;
         font-size    : 15px;
+    }
+
+    .emailIcon {
+        width: 30px;
     }
 }

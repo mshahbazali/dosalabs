@@ -16,7 +16,7 @@ export default function Index() {
                 </div>
                 <ul className={`menu ${mobileMenu == false ? "menuHide" : "menuShow"}`}>
                     <li className='menuItem'>Why Dosa?</li>
-                    <li className='menuItem'>Services</li>
+                    {/* <li className='menuItem'>Services</li> */}
                     <li className='menuItem'>Menu</li>
                     <li className='menuItem'>Contact</li>
                 </ul>

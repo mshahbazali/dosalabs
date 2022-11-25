@@ -6,7 +6,7 @@ export default function index() {
         <div>
             <Header />
             <Hero />
-            <SectionOne />
+            {/* <SectionOne /> */}
             <Menu />
             <Map />
             <About />
