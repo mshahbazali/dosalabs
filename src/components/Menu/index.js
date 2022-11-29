@@ -256,7 +256,7 @@ export default function Index() {
                                                 </div>
                                                 <div className='menuContentContainer' >
                                                     <h2 className='menuName'>{e.name}</h2>
-                                                    <p className='menuContent'>{`${e.content.slice(0, 20)}...`}</p>
+                                                    <p className='menuContent'>{`${e.content?.slice(0, 20)}...`}</p>
                                                     <div className='menusPopupCardPriceContainer'>
                                                         <span className='menusPopupCardPriceDollar'>$</span>
                                                         <span className='menusPopupCardPrice'>{e.price}</span>

@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Index() {
     const [mobileMenu, setMobileMenu] = useState(false)
     return (
         <div className="headerContainer">
             <div className='logoContainer'>
-                <img src={require('../../assets/logo.png')} className='logo' />
+                <img src={require('../../assets/mainlogo.png')} className='logo' />
             </div>
 
             <div className='menuContainer'>
@@ -17,7 +18,9 @@ export default function Index() {
                 <ul className={`menu ${mobileMenu == false ? "menuHide" : "menuShow"}`}>
                     <li className='menuItem'>Why Dosa?</li>
                     {/* <li className='menuItem'>Services</li> */}
-                    <li className='menuItem'>Menu</li>
+                    <Link to={`/menus/`}>
+                        <li className='menuItem'>Menu</li>
+                    </Link>
                     <li className='menuItem'>Contact</li>
                 </ul>
             </div>

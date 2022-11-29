@@ -27,7 +27,7 @@ export default function index() {
             {/* Footer  */}
             <div className='footerContainer'>
                 <div className='fsection1'>
-                    <img src={require("../../assets/logo.png")} alt="" className='footerLogo' />
+                    <img src={require("../../assets/mainlogo.png")} alt="" className='footerLogo' />
                     <p className='aboutContent'>Cheer us at</p>
                     <div className='socialNetwork'>
                         <img src={require("../../assets/instagram.png")} alt="" className='socialIcon' />

@@ -11,7 +11,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import Home from './pages/Home'
 import Product from './pages/Product'
-import ReactDOM from "react-dom/client";
+import { Menu } from './components'
 import {
   BrowserRouter,
   RouterProvider,
@@ -24,6 +24,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/product/:slug' element={<Product />} />
+        <Route path='/menus' element={<Menu />} />
       </Routes>
     </BrowserRouter>
   )
